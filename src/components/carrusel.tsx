@@ -3,9 +3,9 @@ import "./carrusel.css";
 
 export default function Carrusel() {
   const images: string[] = [
-    "/src/assets/local1.avif",
-    "/src/assets/local2.avif",
-    "/src/assets/local3.avif",
+    "/images/local1.avif",
+    "/images/local2.avif",
+    "/images/local3.avif",
   ];
 
   const [current, setCurrent] = useState(0);

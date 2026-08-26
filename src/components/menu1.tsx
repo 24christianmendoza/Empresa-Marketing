@@ -2,7 +2,7 @@ import "./menu1.css";
 
 export default function Menu1() {
   return (
-    <section id="menu" className="menu">
+    <section  className="menu">
 
       {/* SECCION 1 */}
       <h3 className="menu-subtitulo">Seccion 1</h3>
@@ -10,7 +10,7 @@ export default function Menu1() {
         {/* Card 1 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 1" />
+            <img src="/images/masVendido1.avif" alt="Platillo 1" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$99</div>
@@ -19,7 +19,7 @@ export default function Menu1() {
         {/* Card 2 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 2" />
+            <img src="/images/masVendido2.avif" alt="Platillo 2" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$149</div>
@@ -28,7 +28,7 @@ export default function Menu1() {
         {/* Card 3 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 3" />
+            <img src="/images/masVendido3.avif" alt="Platillo 3" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$199</div>
@@ -37,7 +37,7 @@ export default function Menu1() {
         {/* Card 4 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 3" />
+            <img src="/images/masVendido1.avif" alt="Platillo 4" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$199</div>
@@ -46,7 +46,7 @@ export default function Menu1() {
         {/* Card 5 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 3" />
+            <img src="/images/masVendido1.avif" alt="Platillo 3" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$199</div>
@@ -55,7 +55,7 @@ export default function Menu1() {
         {/* Card 6 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 3" />
+            <img src="/images/masVendido1.avif" alt="Platillo 3" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$199</div>
@@ -64,7 +64,7 @@ export default function Menu1() {
         {/* Card 6 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 3" />
+            <img src="/images/masVendido1.avif" alt="Platillo 3" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$199</div>
@@ -77,7 +77,7 @@ export default function Menu1() {
         {/* Card 1 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 1" />
+            <img src="/images/masVendido1.avif" alt="Platillo 1" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$99</div>
@@ -86,7 +86,7 @@ export default function Menu1() {
         {/* Card 2 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 2" />
+            <img src="/images/masVendido2.avif" alt="Platillo 2" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$149</div>
@@ -95,7 +95,7 @@ export default function Menu1() {
         {/* Card 3 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 3" />
+            <img src="/images/masVendido1.avif" alt="Platillo 3" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$199</div>
@@ -104,7 +104,7 @@ export default function Menu1() {
         {/* Card 4 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 3" />
+            <img src="/images/masVendido1.avif" alt="Platillo 3" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$199</div>
@@ -113,7 +113,7 @@ export default function Menu1() {
         {/* Card 5 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 3" />
+            <img src="/images/masVendido1.avif" alt="Platillo 3" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$199</div>
@@ -122,7 +122,7 @@ export default function Menu1() {
         {/* Card 6 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 3" />
+            <img src="/images/masVendido1.avif" alt="Platillo 3" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$199</div>
@@ -135,7 +135,7 @@ export default function Menu1() {
         {/* Card 1 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 1" />
+            <img src="/images/masVendido1.avif" alt="Platillo 1" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$99</div>
@@ -144,7 +144,7 @@ export default function Menu1() {
         {/* Card 2 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 2" />
+            <img src="/images/masVendido1.avif" alt="Platillo 2" />
           </div>
           <div className="menu-descripcion">Descripción del producto Descripción del producto Descripción del producto</div>
           <div className="menu-precio">$149</div>
@@ -153,7 +153,7 @@ export default function Menu1() {
         {/* Card 3 */}
         <div className="menu-card">
           <div className="menu-imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 3" />
+            <img src="/images/masVendido1.avif" alt="Platillo 3" />
           </div>
           <div className="menu-descripcion">Descripción del producto </div>
           <div className="menu-precio">$199</div>

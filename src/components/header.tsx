@@ -21,7 +21,6 @@ export default function Header() {
           <li><a href="#inicio">INICIO</a></li>
           <li><a href="#menu">MENU</a></li>
           <li><a href="#ubicaciones">UBICACIONES</a></li>
-          <li><a href="#conocenos">CONÓCENOS</a></li>
         </ul>
       </nav>
     </header>

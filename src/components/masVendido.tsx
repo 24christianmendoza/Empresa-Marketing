@@ -8,7 +8,7 @@ export default function MasVendido() {
         {/* Card 1 */}
         <div className="card">
           <div className="imagen">
-            <img src="/src/assets/masVendido1.avif" alt="Platillo 1" />
+            <img src="/images/masVendido1.avif" alt="Platillo 1" />
           </div>
           <div className="descripcion">Descripción del producto</div>
         </div>
@@ -16,7 +16,7 @@ export default function MasVendido() {
         {/* Card 2 */}
         <div className="card">
           <div className="imagen">
-            <img src="/src/assets/masVendido2.avif" alt="Platillo 2" />
+            <img src="/images/masVendido2.avif" alt="Platillo 2" />
           </div>
           <div className="descripcion">Descripción del producto</div>
         </div>
@@ -24,7 +24,7 @@ export default function MasVendido() {
         {/* Card 3 */}
         <div className="card">
           <div className="imagen">
-            <img src="/src/assets/masVendido3.avif" alt="Platillo 3" />
+            <img src="/images/masVendido3.avif" alt="Platillo 3" />
           </div>
           <div className="descripcion">Descripción del producto</div>
         </div>

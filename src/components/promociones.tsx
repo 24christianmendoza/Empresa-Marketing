@@ -8,7 +8,7 @@ export default function Promociones() {
         {/* Card 1 */}
         <div className="promocion-card">
           <div className="promocion-imagen">
-            <img src="/src/assets/local1.avif" alt="Promoción 1" />
+            <img src="/images/local1.avif" alt="Promoción 1" />
           </div>
           <div className="promocion-info">
             <h3>Promo Especial 1</h3>
@@ -19,7 +19,7 @@ export default function Promociones() {
         {/* Card 2 */}
         <div className="promocion-card">
           <div className="promocion-imagen">
-            <img src="/src/assets/local1.avif" alt="Promoción 2" />
+            <img src="/images/local2.avif" alt="Promoción 2" />
           </div>
           <div className="promocion-info">
             <h3>Promo Especial 2</h3>

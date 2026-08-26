@@ -1,11 +1,25 @@
-.footer {
+.footer {             /* ocupa todo el ancho */
+  background-color: #ff822e; /* naranja principal */
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ff822e; /* naranja principal */
-  color: #fff;
   padding: 1.5rem 2rem;
-  margin-bottom: 0%;
+}
+
+/* Para que siempre quede al final */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer.footer {
+  margin-top: auto; /* empuja el footer al final */
 }
 
 .footer-left {
@@ -30,7 +44,7 @@
 
 .footer-links a {
   color: #fff;
-  font-size: 1.4rem; /* tamaño de iconos */
+  font-size: 1.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
