@@ -24,7 +24,7 @@ export default function Mapa() {
           <h4>Envío a domicilio en área metropolitana</h4>
           <p>Tel. 81 8000 0000</p>
           <a
-            href="https://wa.me/528100000000?text=Hola%20quiero%20más%20información"
+            href="https://wa.me/528117540834?text=%20Buenas,%20quiero%20pedir%20comida%20a%20domicilio%20"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-whatsapp"
