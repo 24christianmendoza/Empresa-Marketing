@@ -28,6 +28,15 @@
   height: 8px;
 }
 
+.menu-titulo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: var(--color-primario);
+  margin-bottom: 2rem;
+  font-family: 'Baloo 2', sans-serif;
+  text-align: center;
+}
+
 .menuSheets-cards::-webkit-scrollbar-thumb {
   background: var(--color-primario);
   border-radius: 4px;

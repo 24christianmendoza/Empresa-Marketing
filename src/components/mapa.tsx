@@ -28,8 +28,6 @@ export default function Mapa() {
         
 
         <div className="mapa-col derecha">
-          
-
           {/* Dinámica debajo */}
           <div className="mapa-dinamica">
             <img src="/images/dinamicaComida.png" alt="Entrega a domicilio" />

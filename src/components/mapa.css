@@ -52,21 +52,26 @@
 
 
 
+.mapa-dinamica {
+  display: flex;
+  justify-content: center;  /* centra horizontalmente */
+  align-items: center;      /* centra verticalmente si das altura */
+  width: 100%;
+}
+
 .mapa-dinamica img {
   width: 100%;        /* ocupa todo el ancho disponible */
-  height: auto;       /* mantiene proporción original */
   max-width: 600px;   /* límite en pantallas grandes */
+  height: auto;       /* mantiene proporción */
   border-radius: 12px;
-  display: block;     /* elimina espacios extra */
-  margin: 0 auto;     /* centra la imagen */
-  object-fit: contain; /* asegura que no se recorte */
 }
+
 
 /* 📱 Responsivo */
 @media (max-width: 768px) {
   .mapa-info {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;   /* 🔑 cambia de flex-start a center */
   }
 
   .mapa-col {
@@ -74,8 +79,10 @@
     max-width: 400px;
   }
 
-  .dinamica img {
-    max-width: 90%;   /* se adapta mejor en pantallas pequeñas */
-    border-radius: 8px;
+
+  .mapa-dinamica img {
+    max-width: 90%;
+    margin: 0 auto;        /* asegura que quede centrada */
+    margin-right: 2rem;      /* espacio superior */
   }
 }
