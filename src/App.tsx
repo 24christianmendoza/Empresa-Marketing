@@ -7,6 +7,10 @@ import MenuProductos from "./components/menuProductos";
 import Promociones from "./components/promociones";
 import Mapa from "./components/mapa";
 import Footer from "./components/footer";
+import MenuSheets from "./components/menuSheets";
+import MenuProductosSheets from "./components/menuProductosSheets";
+import BarberProductos from "./components/barberProductos";
+
 
 
 
@@ -18,9 +22,7 @@ function App() {
         <Carrusel />
         <TextoScroll />
         <MasVendido />
-        <h2 id="menu" className="menu-titulo">Menú</h2>
-        <Menu1 />
-        <MenuProductos />
+        <MenuSheets />
         <Promociones />
         <Mapa />
       </main>

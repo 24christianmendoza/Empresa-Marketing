@@ -1,32 +1,22 @@
-.menu {
+.menuSheets {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: var(--color-fondo); 
+  background-color: var(--color-fondo);
 }
 
-
-.menu-titulo {
-  font-size: 2.2rem;
-  font-weight: bold;
-  color: var(--color-primario);
-  margin-bottom: 2rem;
-  font-family: 'Baloo 2', sans-serif;
-  text-align: center;
-}
-
-.menu-subtitulo {
+.menuSheets-subtitulo {
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--color-primario);
   margin: 2rem 0 1rem;
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Baloo 2', sans-serif;
   text-align: left;
   border-top: 2px solid var(--color-primario);
   padding-top: 0.5rem;
 }
 
-/* Estilo base para las cards */
-.menu-cards {
+/* Cards del menú */
+.menuSheets-cards {
   display: flex;
   gap: 2rem;
   overflow-x: auto;        /* scroll horizontal en móvil */
@@ -34,23 +24,23 @@
   scroll-behavior: smooth;
 }
 
-.menu-cards::-webkit-scrollbar {
+.menuSheets-cards::-webkit-scrollbar {
   height: 8px;
 }
 
-.menu-cards::-webkit-scrollbar-thumb {
+.menuSheets-cards::-webkit-scrollbar-thumb {
   background: var(--color-primario);
   border-radius: 4px;
 }
 
-.menu-cards::-webkit-scrollbar-track {
-  background: var(--color-secundario);
+.menuSheets-cards::-webkit-scrollbar-track {
+  background: #fff;
 }
 
-.menu-card {
+.menuSheets-card {
   flex: 0 0 auto; /* ancho fijo para scroll */
   margin-top: 1rem;
-  background: var(--color-secundario);
+  background: #fff;
   border: 2px solid #ddd;
   border-radius: 12px;
   width: 300px; /* tamaño fijo para las cards */
@@ -62,12 +52,21 @@
   margin-left: 2rem; /* espacio a la izquierda */
 }
 
-.menu-card:hover {
+.menuSheets-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 12px rgba(0,0,0,0.15);
 }
 
-.menu-imagen img {
+/* Imagen dentro de la card */
+.menuSheets-imagen {
+  width: 100%;
+  height: 200px; /* altura fija para las imágenes */
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.menuSheets-imagen img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -75,14 +74,20 @@
   margin-bottom: 1rem;
 }
 
-.menu-nombre {
+.menuSheets-nombre {
   font-size: 1rem;
   margin-bottom: 0.5rem;
-  color: var(--color-texto);
+  color: #333;
   font-weight: bold;
 }
 
-.menu-precio {
+.menuSheets-descripcion {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.menuSheets-precio {
   font-weight: bold;
   color: var(--color-primario);
   font-size: 1.3rem;
@@ -90,13 +95,13 @@
 
 /* 📱 Responsivo */
 @media (max-width: 768px) {
-  .menu-cards {
+  .menuSheets-cards {
     justify-content: flex-start; /* en móvil, alineadas a la izquierda */
   }
 }
 
 @media (min-width: 769px) {
-  .menu-cards {
+  .menuSheets-cards {
     justify-content: flex-start; /* en PC, centradas */
     overflow-x: visible;     /* en PC no se necesita scroll */
     flex-wrap: wrap;         /* permite varias filas centradas */

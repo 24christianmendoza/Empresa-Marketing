@@ -1,5 +1,5 @@
 .footer {             /* ocupa todo el ancho */
-  background-color: #ff822e; /* naranja principal */
+  background-color: var(--color-primario);; /* naranja principal */
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -57,7 +57,7 @@ footer.footer {
 
 .footer-links a:hover {
   background-color: #fff;
-  color: #ff822e;
+  color: var(--color-primario);
 }
 
 /* 📱 Responsivo */

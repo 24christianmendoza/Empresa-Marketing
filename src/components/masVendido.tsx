@@ -1,7 +1,9 @@
 import "./masVendido.css";
 
+
 export default function MasVendido() {
   return (
+    
     <section className="mas-vendido">
       <h2 className="titulo">Lo más vendido</h2>
       <div className="cards">

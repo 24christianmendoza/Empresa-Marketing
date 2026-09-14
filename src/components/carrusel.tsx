@@ -19,7 +19,7 @@ export default function Carrusel() {
   };
 
   return (
-    <section id="inicio" className="carrusel">
+    <section id="inicio"className="carrusel">
       <div className="carrusel-container">
         <img src={images[current]} alt={`Local ${current + 1}`} />
         <button className="prev" onClick={prevSlide}>‹</button>

@@ -8,8 +8,8 @@ main {
   left: 0;
   width: 100%;
   height: 70px;
-  background-color: #fff;
-  border-bottom: 3px solid #ff822e;
+  background-color: var(--color-fondo);
+  border-bottom: 3px solid var(--color-primario);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +22,7 @@ main {
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #ff822e;
+  color: var(--color-primario);
   font-family: 'Montserrat', cursive;
 }
 
@@ -32,7 +32,7 @@ main {
   font-size: 2rem;
   background: none;
   border: none;
-  color: #ff822e;
+  color: var(--color-primario);
   cursor: pointer;
   margin-left: 1rem;
 }
@@ -52,7 +52,7 @@ main {
 
 .navbar a {
   text-decoration: none;
-  color: #ff822e;
+  color: var(--color-primario);
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
 }
@@ -66,7 +66,7 @@ main {
   .navbar ul {
     flex-direction: column;
     gap: 1rem;
-    background: #fff;
+    background: var(--color-fondo);
     position: absolute;
     top: 70px;
     left: 50%;              /* lo colocamos en el centro */
@@ -76,7 +76,7 @@ main {
     padding: 1rem;
     display: none;
     text-align: center;     /* centra los textos */
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid var(--color-primario);
     border-radius: 8px;
   }
 

@@ -1,7 +1,7 @@
 .scroll-container {
   width: 100%;              
   overflow: hidden;
-  background: #ff822e;       /* franja naranja */
+  background: var(--color-primario);       /* franja naranja */
   color: #fff;              
   padding: 0.5rem 0;
   box-sizing: border-box;

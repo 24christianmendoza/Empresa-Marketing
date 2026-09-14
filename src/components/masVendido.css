@@ -1,7 +1,7 @@
 .mas-vendido {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #ff822e;
+  background-color: var(--color-primario);
 }
 
 .titulo {
@@ -9,7 +9,7 @@
   font-weight: bold;
   color: #fff;
   margin-bottom: 2rem;
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Baloo 2', sans-serif;
 }
 
 /* Estilo base para cards */
@@ -31,12 +31,12 @@
 }
 
 .cards::-webkit-scrollbar-track {
-  background: #ff822e;
+  background: var(--color-primario);
 }
 
 .card {
   flex: 0 0 auto; /* ancho fijo para scroll */
-  background: #fff;
+  background: var(--color-secundario);
   border: 2px solid #ddd;
   border-radius: 12px;
   width: 260px;
@@ -62,12 +62,12 @@
 .card .descripcion {
   font-size: 1rem;
   margin-bottom: 0.5rem;
-  color: #333;
+  color: var(--color-texto);
 }
 
 .card .precio {
   font-weight: bold;
-  color: #ff822e;
+  color: var(--color-primario);
   font-size: 1.3rem;
 }
 

@@ -1,15 +1,15 @@
 .promociones {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #fff;
+  background-color: var(--color-fondo);
 }
 
 .promociones-titulo {
   font-size: 2rem;
   font-weight: bold;
-  color: #ff822e;
+  color: var(--color-primario);
   margin-bottom: 2rem;
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Baloo 2', sans-serif;
 }
 
 /* Contenedor de las dos cards */
@@ -22,7 +22,7 @@
 
 /* Card grande rectangular */
 .promocion-card {
-  background: #fff;
+  background: var(--color-secundario);
   border: 2px solid #ddd;
   border-radius: 12px;
   width: 800px;       /* ancho grande tipo rectángulo */
@@ -55,7 +55,7 @@
 
 .promocion-info h3 {
   font-size: 1.5rem;
-  color: #ff822e;
+  color: var(--color-primario);
   margin-bottom: 0.5rem;
 }
 
