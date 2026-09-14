@@ -1,4 +1,5 @@
 import "./mapa.css";
+import { FaWhatsapp} from "react-icons/fa";
 
 export default function Mapa() {
   return (
@@ -22,10 +23,19 @@ export default function Mapa() {
           <p>Domingo: 10 AM – 6 PM</p>
           <h4>Envío a domicilio en área metropolitana</h4>
           <p>Tel. 81 8000 0000</p>
-          
+          <a
+            href="https://wa.me/528100000000?text=Hola%20quiero%20más%20información"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-whatsapp"
+          >
+            <FaWhatsapp className="whatsapp-icon" />
+            Enviar WhatsApp
+          </a>
+
         </div>
 
-        
+
 
         <div className="mapa-col derecha">
           {/* Dinámica debajo */}

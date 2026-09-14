@@ -66,6 +66,31 @@
   border-radius: 12px;
 }
 
+.btn-whatsapp {
+  display: inline-block;
+  background-color: #25D366; /* verde WhatsApp */
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-family: 'Baloo 2', sans-serif;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5d;
+}
+
+.whatsapp-icon {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  margin-bottom: .5rem; /* Ajusta la alineación vertical */
+}
+
 
 /* 📱 Responsivo */
 @media (max-width: 768px) {
